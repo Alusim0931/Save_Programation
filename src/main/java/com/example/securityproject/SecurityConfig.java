@@ -61,8 +61,6 @@ public class SecurityConfig {
                         configurer.accessDeniedPage("/access-denied")
                 );
 
-
-
         return http.build();
     }
 }
